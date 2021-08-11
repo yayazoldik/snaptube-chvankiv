@@ -1,0 +1,72 @@
+{
+  "config" : {
+    "adcolony" : {
+      "adcolony_app_id" : "",
+      "adcolony_interstitial_id" : "",
+      "adcolony_rewarded_id" : ""
+    },
+    "admob" : {
+      "admob_banner_id" : "",
+      "admob_interstitial_id" : "",
+      "admob_native_id" : "",
+      "admob_rewarded_id" : "",
+      "admob_unit_id" : ""
+    },
+    "appodeal" : {
+      "appodeal_app_key" : ""
+    },
+    "facebook" : {
+      "facebook_banner_id" : "IMG_16_9_APP_INSTALL#",
+      "facebook_interstitial_id" : "IMG_16_9_APP_INSTALL#",
+      "facebook_native_id" : "IMG_16_9_APP_INSTALL#",
+      "facebook_native_banner_id" : "IMG_16_9_APP_INSTALL#"
+    },
+    "mode_ads_banner" : "admob",
+    "mode_ads_interstitial" : "admob",
+    "mode_ads_native_enabled" : true,
+    "mode_ads_rewarded" : "admob",
+    "unity" : {
+      "unity_app_id" : "",
+      "unity_banner_id" : "",
+      "unity_interstitial_id" : "",
+      "unity_rewarded_id" : ""
+    },
+    "update" : {
+      "enable_update_closed" : true,
+      "update_action" : "",
+      "update_msg" : "update your app for grt all favorite now",
+      "update_state" : false,
+      "update_title" : "update your app"
+    },
+    "cpabuild" : {
+        "cpabuild_offer_state" : false,
+        "cpabuild_offer_user_id" : "",
+        "cpabuild_offer_api_key" : ""
+    },
+    "ogads" : {
+        "ogads_offer_state" : false,
+        "ogads_offer_user_id" : ""
+    },
+    "local_offer" : {
+        "local_offer_state" : false
+    }
+  },
+  "apps" : [
+    {
+        "id":"53173336",
+        "appName":"Test Name 1",
+        "appIcon":"https:\/\/gyazo.com\/04d88109ce840a10d18f627b9f3ed70f.png",
+        "appUrl":"https://play.google.com/store/apps/details?id=com.facebook.katana",
+        "appState":true,
+        "appCountry":"all"
+    },
+    {
+        "id":"53173386",
+        "appName":"Test Name 2",
+        "appIcon":"https:\/\/gyazo.com\/04d88109ce840a10d18f627b9f3ed70f.png",
+        "appUrl":"https:\/\/gyazo.com\/04d88109ce840a10d18f627b9f3ed70f.png",
+        "appState":true,
+        "appCountry":"ma,us"
+    }
+  ]
+}
